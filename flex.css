@@ -23,6 +23,11 @@
 
 .flex-child-1 { flex: 1 1 auto }
 
+/* Flex Grow */
+
+.grow-2 { flex-grow: 2 }
+.grow-3 { flex-grow: 3 }
+
 /* Flex Columns */
 .column-2 { max-width: 50% }
 .column-3 { max-width: 33% }
