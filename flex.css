@@ -1,0 +1,37 @@
+/* ---------------------- */
+/* Flex Parent Properties */
+/* ---------------------- */
+
+.flex { display: flex } 
+.flex-wrap { flex: wrap }
+
+/* Flex Alignments */
+.flex-start { align-items: flex-start }
+.flex-end { align-items: flex-end }
+.flex-center { align-items: center }
+.flex-baseline { align-items: baseline }
+
+/* Flex Justification */
+.flex-justify-start { justify-content: flex-start }
+.flex-justify-end { justify-content: flex-end }
+.flex-justify-center { justify-content: center }
+.flex-justify-start { justify-content: space-between }
+
+/* --------------------- */
+/* Flex Child Properties */
+/* --------------------- */
+
+.flex-child-1 { flex: 1 1 auto }
+
+/* Flex Columns */
+.column-2 { max-width: 50% }
+.column-3 { max-width: 33% }
+.column-4 { max-width: 25% }
+
+@media only screen and (max-width:599px) {
+  .column-2, .column-3, .column-4 { max-width: 100% }
+} 
+
+@media (min-width: 600px) {
+  .column-4 { max-width: 50% }
+} 
