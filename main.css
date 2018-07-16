@@ -1,4 +1,5 @@
 @import 'flex.css';
+body { color: #fff }
 h1 { margin: 0 }
 .text-align-center { text-align: center }
 
@@ -16,11 +17,10 @@ h1 { margin: 0 }
 .x100 { width: 100px }
 
 .m { margin: 0 1% 0 0; }
+.mb1 { margin-bottom: 1em }
 
 .x { width: 100% }
 
-
 @media only screen and (max-width:599px) {
   .m { margin: 0 1% 4% 0; }
-
 }

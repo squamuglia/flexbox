@@ -5,6 +5,9 @@
 .flex { display: flex } 
 .flex-wrap { flex-wrap: wrap }
 
+/* Flex Direction */
+.flex-column { flex-direction: column }
+
 /* Flex Alignments */
 .align-start { align-items: flex-start }
 .align-end { align-items: flex-end }
@@ -23,12 +26,11 @@
 .self-center { align-self: center }
 .align-stretch { align-self: stretch }
 
-
 /* --------------------- */
 /* Flex Child Properties */
 /* --------------------- */
 
-.flex-child { flex: 1 }
+.flex-child { flex: 1 1 auto }
 
 /* Flex Grow */
 
