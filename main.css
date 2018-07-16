@@ -1,0 +1,26 @@
+@import 'flex.css';
+h1 { margin: 0 }
+.text-align-center { text-align: center }
+
+.bg-yellow { background: yellow; }
+
+.bg-orange { background: orange; }
+
+.bg-red { background: red; }
+
+.bg-blue { background: blue }
+
+.h400 { min-height: 400px; margin-bottom: 1%;}
+.h200 { min-height: 200px; margin-bottom: 1%;}
+.h100 { height: 100px }
+.x100 { width: 100px }
+
+.m { margin: 0 1% 0 0; }
+
+.x { width: 100% }
+
+
+@media only screen and (max-width:599px) {
+  .m { margin: 0 1% 4% 0; }
+
+}
