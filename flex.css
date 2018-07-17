@@ -24,7 +24,7 @@
 .self-start { align-self: flex-start }
 .self-end { align-self: flex-end }
 .self-center { align-self: center }
-.align-stretch { align-self: stretch }
+.self-stretch { align-self: stretch }
 
 /* --------------------- */
 /* Flex Child Properties */
